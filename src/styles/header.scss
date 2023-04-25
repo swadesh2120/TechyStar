@@ -1,0 +1,35 @@
+@import "./colors.scss";
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+
+    >main{
+        display: flex;
+        justify-content: flex-end;
+        color: black;
+        width: 70%;
+
+        h1{
+            text-transform: uppercase;
+        }
+
+        a{
+            color: $second;
+            margin: 1rem;
+
+            &:hover{
+                color: $third;
+            }
+        }
+    }
+
+    
+}
