@@ -9,10 +9,10 @@ const Header = () => {
       <nav>
         <h1>TechyStar</h1>
         <main>
-          <HashLink to={"/"}>Home</HashLink>
+          <Link to={"/techystar"}>Home</Link>
           <Link to={"/contact"}>Contact</Link>
-          <HashLink to={"/#about"}>About</HashLink>
-          <HashLink to={"/#brands"}>Brands</HashLink>
+          <HashLink to={"/techystar/#about"}>About</HashLink>
+          <HashLink to={"/techystar/#brands"}>Brands</HashLink>
           <Link to={"/services"}>Services</Link>
         </main>
       </nav>
